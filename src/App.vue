@@ -20,24 +20,47 @@ export default defineComponent({
 </script>
 
 <template>
-
-      <img src="/assets/img/GAMENIGHT.png" class="img-fluid" alt="...">
+  <div class="row align-items-center">
+    <div class="col-1">
+      <img src="/img/must%20luik.jpg" class="img-fluid" alt="...">
+      <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
+      <img src="/img/INGame.png" class="img-fluid" alt="...">
+      <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+      <img src="/img/Maori.png" class="img-fluid" alt="...">
+      <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
+      <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
+      <img src="/img/studio.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col-10">
+      <img src="/img/GAMENIGHT.png" class="img-fluid" alt="...">
       <table class="table table-dark table-striped">
         <thead>
         <tr class="table-dark">
-          <th scope="col">#</th>
-          <th scope="col">Nimi</th>
-          <th scope="col">Punktid</th>
+          <th scope="col"><strong>#</strong></th>
+          <th scope="col"><strong>Nimi</strong></th>
+          <th scope="col"><strong>Punktid</strong></th>
         </tr>
         </thead>
         <tbody>
         <tr v-for="(row, i) in store.fullData.length" :key="i">
           <th scope="row">{{ store.loading ? 'Laeb..' : store.fullData[i][0] }}</th>
-          <td>{{ !store.loading ? store.fullData[i][1] : 'Laeb..' }}</td>
+          <td class="text-capitalize">{{ !store.loading ? store.fullData[i][1] : 'Laeb..' }}</td>
           <td>{{ !store.loading ? store.fullData[i][2] : 'Laeb..' }}</td>
         </tr>
         </tbody>
       </table>
+    </div>
+    <div class="col-1">
+        <img src="/img/studio.png" class="img-fluid" alt="...">
+        <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
+        <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
+        <img src="/img/Maori.png" class="img-fluid" alt="...">
+        <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+        <img src="/img/INGame.png" class="img-fluid" alt="...">
+        <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
+        <img src="/img/must%20luik.jpg" class="img-fluid" alt="...">
+    </div>
+  </div>
 </template>
 
 <style scoped>

@@ -10,7 +10,6 @@ export const useScoreStore = defineStore({
 		sheet: 'TOP',
 		range: 'A2:C',
 		fullData: [],
-		banana: 'Tere',
 		loading: false
 	}),
 	actions: {
