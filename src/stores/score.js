@@ -10,20 +10,23 @@ export const useScoreStore = defineStore({
 		sheet: 'TOP',
 		range: 'A2:C',
 		fullData: [],
-		loading: false
+		loading: false,
 	}),
 	actions: {
 		async fetchData() {
 			this.loading = true;
-			this.fullData = await axios.get(`https://sheets.googleapis.com/v4/spreadsheets/${this.sheetId}/values/${this.sheet}!${this.range}?key=${this.apiKey}`)
+			const scoreList = [];
+			await axios.get(`https://sheets.googleapis.com/v4/spreadsheets/${this.sheetId}/values/${this.sheet}!${this.range}?key=${this.apiKey}`)
 				.then(result => {
-					this.fullData = result.data['values'].filter((el) => el[1].trim().length > 0)
-					this.loading = false;
+					result.data['values'].filter((el) => el[1].trim().length > 0).forEach(el => scoreList.push(el))
 				})
 				.catch(err => {
 					console.error(err)
-					this.loading = false;
-					return [];
+					this.fullData = [];
+				})
+				.finally(res => {
+					this.fullData = scoreList
+					this.loading = false
 				})
 		},
 
