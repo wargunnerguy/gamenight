@@ -22,7 +22,7 @@ export default defineComponent({
 <template>
   <div class="row align-items-center">
     <div class="col-1">
-      <img src="/img/must%20luik.jpg" class="img-fluid" alt="...">
+      <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
       <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
       <img src="/img/INGame.png" class="img-fluid" alt="...">
       <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
@@ -58,7 +58,7 @@ export default defineComponent({
         <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
         <img src="/img/INGame.png" class="img-fluid" alt="...">
         <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
-        <img src="/img/must%20luik.jpg" class="img-fluid" alt="...">
+        <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
     </div>
   </div>
 </template>
