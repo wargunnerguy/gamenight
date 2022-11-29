@@ -7,7 +7,6 @@ import "bootstrap"
 import './assets/main.css'
 
 const app = createApp(App)
-
-app.use(createPinia())
+	.use(createPinia())
 
 app.mount('#app')
