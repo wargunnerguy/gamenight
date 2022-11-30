@@ -4,7 +4,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
   font-weight: normal;
 }
 
@@ -12,7 +11,7 @@ body {
   background-image: url('img/bg.png');
   width: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   background-size: cover;
 }
 
