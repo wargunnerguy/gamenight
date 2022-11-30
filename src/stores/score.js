@@ -8,7 +8,7 @@ export const useScoreStore = defineStore({
 		sheetId: '1zhn9554WJTIe6iVKqYh5fENu8aagLxy5B4enSbI7ljE',
 		apiKey: 'AIzaSyCu3eywuilXrvgyLneIpxMOAFZkL9bxqmg',
 		sheet: 'TOP',
-		range: 'A2:C',
+		range: 'A2:D',
 		fullData: [],
 		loading: false,
 		notice: 'Tulge kõik sõõma'

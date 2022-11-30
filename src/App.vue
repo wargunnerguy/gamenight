@@ -24,7 +24,7 @@ export default defineComponent({
   <div class="container-fluid pb-5 ps-0 ms-0 w-100">
     <div class="row">
       <transition name="sponsors" appear>
-        <div class="col-1 sponsors">
+        <div class="d-none d-md-block col-md-2">
           <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
           <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
           <img src="/img/INGame.png" class="img-fluid" alt="...">
@@ -59,7 +59,7 @@ export default defineComponent({
           <img src="/img/studio.png" class="img-fluid" alt="...">
         </div>
       </transition>
-      <div class="col-10">
+      <div class="col-sm-12 col-md-8">
         <div>
           <img src="/img/GAMENIGHT.png" class="img-fluid" alt="...">
           <table class="table table-dark table-striped edetabel">
@@ -68,14 +68,16 @@ export default defineComponent({
               <th scope="col"><strong>#</strong></th>
               <th scope="col"><strong>Nimi</strong></th>
               <th scope="col"><strong>Punktid</strong></th>
+              <th scope="col"><strong>Auhinnad</strong></th>
             </tr>
             </thead>
             <transition name="fade" appear>
               <tbody v-show="store.fullData.length > 0">
-              <tr v-for="(row, i) in store.fullData.length" :key="i">
+              <tr v-for="(row, i) in store.fullData" :key="i">
                 <th scope="row">{{ store.fullData[i][0] }}</th>
                 <td class="text-capitalize">{{ store.fullData[i][1] }}</td>
                 <td>{{ store.fullData[i][2] }}</td>
+                <td>{{ store.fullData[i][3] }}</td>
               </tr>
               </tbody>
             </transition>
@@ -83,7 +85,7 @@ export default defineComponent({
         </div>
       </div>
       <transition name="sponsors" appear>
-        <div class="col-1 sponsors">
+        <div class="d-none d-md-block col-md-2">
           <img src="/img/studio.png" class="img-fluid" alt="...">
           <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
           <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
