@@ -21,10 +21,10 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="container align-items-baseline">
-    <div class="row float-start">
+  <div class="container-fluid pb-5 ps-0 ms-0 w-100">
+    <div class="row">
       <transition name="sponsors" appear>
-        <div class="col-2">
+        <div class="col-1 sponsors">
           <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
           <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
           <img src="/img/INGame.png" class="img-fluid" alt="...">
@@ -35,7 +35,7 @@ export default defineComponent({
           <img src="/img/studio.png" class="img-fluid" alt="...">
         </div>
       </transition>
-      <div class="col-8">
+      <div class="col-10">
         <div>
           <img src="/img/GAMENIGHT.png" class="img-fluid" alt="...">
           <table class="table table-dark table-striped edetabel">
@@ -59,7 +59,7 @@ export default defineComponent({
         </div>
       </div>
       <transition name="sponsors" appear>
-        <div class="col-2 float-end">
+        <div class="col-1 sponsors">
           <img src="/img/studio.png" class="img-fluid" alt="...">
           <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
           <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
@@ -68,13 +68,6 @@ export default defineComponent({
           <img src="/img/INGame.png" class="img-fluid" alt="...">
           <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
           <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-          </div>
         </div>
       </transition>
     </div>
@@ -84,15 +77,6 @@ export default defineComponent({
 <style scoped>
 header {
   line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-.edetabel {
-  /*font-size: 2em;*/
 }
 
 @media (min-width: 1024px) {

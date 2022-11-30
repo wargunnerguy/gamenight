@@ -11,6 +11,7 @@ export const useScoreStore = defineStore({
 		range: 'A2:C',
 		fullData: [],
 		loading: false,
+		notice: 'Tulge kõik sõõma'
 	}),
 	actions: {
 		async fetchData() {
