@@ -33,6 +33,30 @@ export default defineComponent({
           <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
           <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
           <img src="/img/studio.png" class="img-fluid" alt="...">
+          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
+          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
+          <img src="/img/INGame.png" class="img-fluid" alt="...">
+          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
+          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
+          <img src="/img/studio.png" class="img-fluid" alt="...">
+          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
+          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
+          <img src="/img/INGame.png" class="img-fluid" alt="...">
+          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
+          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
+          <img src="/img/studio.png" class="img-fluid" alt="...">
+          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
+          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
+          <img src="/img/INGame.png" class="img-fluid" alt="...">
+          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
+          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
+          <img src="/img/studio.png" class="img-fluid" alt="...">
         </div>
       </transition>
       <div class="col-10">
@@ -60,6 +84,30 @@ export default defineComponent({
       </div>
       <transition name="sponsors" appear>
         <div class="col-1 sponsors">
+          <img src="/img/studio.png" class="img-fluid" alt="...">
+          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
+          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
+          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/INGame.png" class="img-fluid" alt="...">
+          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
+          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
+          <img src="/img/studio.png" class="img-fluid" alt="...">
+          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
+          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
+          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/INGame.png" class="img-fluid" alt="...">
+          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
+          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
+          <img src="/img/studio.png" class="img-fluid" alt="...">
+          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
+          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
+          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/INGame.png" class="img-fluid" alt="...">
+          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
+          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
           <img src="/img/studio.png" class="img-fluid" alt="...">
           <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
           <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
