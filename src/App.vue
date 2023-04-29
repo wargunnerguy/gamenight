@@ -25,38 +25,56 @@ export default defineComponent({
     <div class="row">
       <transition name="sponsors" appear>
         <div class="d-none d-md-block col-md-2">
-          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
-          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
-          <img src="/img/INGame.png" class="img-fluid" alt="...">
-          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
-          <img src="/img/Maori.png" class="img-fluid" alt="...">
           <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
-          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
           <img src="/img/studio.png" class="img-fluid" alt="...">
-          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
-          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
-          <img src="/img/INGame.png" class="img-fluid" alt="...">
+          <img src="/img/aloha_logo_5tarni.png" class="img-fluid" alt="...">
+          <img src="/img/lemongym.png" class="img-fluid" alt="...">
+          <img src="/img/alecoq.png" class="img-fluid" alt="...">
           <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
-          <img src="/img/Maori.png" class="img-fluid" alt="...">
-          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
-          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
-          <img src="/img/studio.png" class="img-fluid" alt="...">
-          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
-          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
+          <img src="/img/aasageko.jpg" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/Wpark.png" class="img-fluid" alt="...">
           <img src="/img/INGame.png" class="img-fluid" alt="...">
-          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
-          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/Vendy.png" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
           <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
-          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
           <img src="/img/studio.png" class="img-fluid" alt="...">
-          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
-          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
+          <img src="/img/aloha_logo_5tarni.png" class="img-fluid" alt="...">
+          <img src="/img/lemongym.png" class="img-fluid" alt="...">
+          <img src="/img/alecoq.png" class="img-fluid" alt="...">
+          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/aasageko.jpg" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/Wpark.png" class="img-fluid" alt="...">
           <img src="/img/INGame.png" class="img-fluid" alt="...">
-          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
-          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/Vendy.png" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
           <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
-          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
           <img src="/img/studio.png" class="img-fluid" alt="...">
+          <img src="/img/aloha_logo_5tarni.png" class="img-fluid" alt="...">
+          <img src="/img/lemongym.png" class="img-fluid" alt="...">
+          <img src="/img/alecoq.png" class="img-fluid" alt="...">
+          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/aasageko.jpg" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/Wpark.png" class="img-fluid" alt="...">
+          <img src="/img/INGame.png" class="img-fluid" alt="...">
+          <img src="/img/Vendy.png" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
+          <img src="/img/studio.png" class="img-fluid" alt="...">
+          <img src="/img/aloha_logo_5tarni.png" class="img-fluid" alt="...">
+          <img src="/img/lemongym.png" class="img-fluid" alt="...">
+          <img src="/img/alecoq.png" class="img-fluid" alt="...">
+          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/aasageko.jpg" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/Wpark.png" class="img-fluid" alt="...">
+          <img src="/img/INGame.png" class="img-fluid" alt="...">
+          <img src="/img/Vendy.png" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+
+
         </div>
       </transition>
       <div class="col-sm-12 col-md-8">
@@ -86,38 +104,56 @@ export default defineComponent({
       </div>
       <transition name="sponsors" appear>
         <div class="d-none d-md-block col-md-2">
-          <img src="/img/studio.png" class="img-fluid" alt="...">
-          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
           <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
-          <img src="/img/Maori.png" class="img-fluid" alt="...">
-          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
-          <img src="/img/INGame.png" class="img-fluid" alt="...">
-          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
-          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
           <img src="/img/studio.png" class="img-fluid" alt="...">
-          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
-          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
-          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/aloha_logo_5tarni.png" class="img-fluid" alt="...">
+          <img src="/img/lemongym.png" class="img-fluid" alt="...">
+          <img src="/img/alecoq.png" class="img-fluid" alt="...">
           <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/aasageko.jpg" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/Wpark.png" class="img-fluid" alt="...">
           <img src="/img/INGame.png" class="img-fluid" alt="...">
-          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
-          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
+          <img src="/img/Vendy.png" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
           <img src="/img/studio.png" class="img-fluid" alt="...">
-          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
-          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
-          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/aloha_logo_5tarni.png" class="img-fluid" alt="...">
+          <img src="/img/lemongym.png" class="img-fluid" alt="...">
+          <img src="/img/alecoq.png" class="img-fluid" alt="...">
           <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/aasageko.jpg" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/Wpark.png" class="img-fluid" alt="...">
           <img src="/img/INGame.png" class="img-fluid" alt="...">
-          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
-          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
+          <img src="/img/Vendy.png" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
           <img src="/img/studio.png" class="img-fluid" alt="...">
-          <img src="/img/soorikukohvik.png" class="img-fluid" alt="...">
-          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
-          <img src="/img/Maori.png" class="img-fluid" alt="...">
+          <img src="/img/aloha_logo_5tarni.png" class="img-fluid" alt="...">
+          <img src="/img/lemongym.png" class="img-fluid" alt="...">
+          <img src="/img/alecoq.png" class="img-fluid" alt="...">
           <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/aasageko.jpg" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/Wpark.png" class="img-fluid" alt="...">
           <img src="/img/INGame.png" class="img-fluid" alt="...">
-          <img src="/img/hotlipsNewLogo.png" class="img-fluid" alt="...">
-          <img src="/img/mustluik.jpg" class="img-fluid" alt="...">
+          <img src="/img/Vendy.png" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/MrsWaffle-LOGO-tav-01.png" class="img-fluid" alt="...">
+          <img src="/img/studio.png" class="img-fluid" alt="...">
+          <img src="/img/aloha_logo_5tarni.png" class="img-fluid" alt="...">
+          <img src="/img/lemongym.png" class="img-fluid" alt="...">
+          <img src="/img/alecoq.png" class="img-fluid" alt="...">
+          <img src="/img/kohvikrein.png" class="img-fluid" alt="...">
+          <img src="/img/aasageko.jpg" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+          <img src="/img/Wpark.png" class="img-fluid" alt="...">
+          <img src="/img/INGame.png" class="img-fluid" alt="...">
+          <img src="/img/Vendy.png" class="img-fluid" alt="...">
+          <img src="/img/ElamusGolf_logo_est_white.png" class="img-fluid" alt="...">
+
+
         </div>
       </transition>
     </div>

@@ -5,10 +5,10 @@ import axios from 'axios';
 export const useScoreStore = defineStore({
 	id: 'store',
 	state: () => ({
-		sheetId: '1zhn9554WJTIe6iVKqYh5fENu8aagLxy5B4enSbI7ljE',
+		sheetId: '1xZ_wiNc53amjXl7yxvkMcmE5EChQxTgmU43jo5TeAqs',
 		apiKey: 'AIzaSyCu3eywuilXrvgyLneIpxMOAFZkL9bxqmg',
 		sheet: 'TOP',
-		range: 'A2:D',
+		range: 'A2:D200',
 		fullData: [],
 		loading: false,
 		notice: 'Tulge kõik sõõma'
