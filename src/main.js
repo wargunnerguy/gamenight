@@ -6,6 +6,8 @@ import "bootstrap"
 
 import './assets/main.css'
 
+
+
 const app = createApp(App)
 	.use(createPinia())
 
